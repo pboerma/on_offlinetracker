@@ -1,18 +1,9 @@
-# Online and Offline Budget Tracker 
+# Online and Offline Budget Tracker
+## Description
 
-Add functionality to our existing Budget Tracker application to allow for offline access and functionality.
+This applicaiton will allow a user to manage their money with a budget tracker that is functional with our without a connection. 
 
-The user will be able to add expenses and deposits to their budget with or without a connection. When entering transactions offline, they should populate the total when brought back online.
-
-Offline Functionality:
-
-  * Enter deposits offline
-
-  * Enter expenses offline
-
-When brought back online:
-
-  * Offline entries should be added to tracker.
+The user is able to add expenses and deposits to their budget tracker. When they enter a transaction offline, it will populate once they are brought back online.
 
 ## User Story
 AS AN avid traveller
@@ -23,35 +14,23 @@ SO THAT my account balance is accurate when I am traveling
 
 Giving users a fast and easy way to track their money is important, but allowing them to access that information anytime is even more important. Having offline functionality is paramount to our applications success.
 
+## Screenshot
 
-## Acceptance Criteria
-GIVEN a user is on Budget App without an internet connection
-WHEN the user inputs a withdrawal or deposit
-THEN that will be shown on the page, and added to their transaction history when their connection is back online.
+![Dashboard](public/assets/trackeronline.png)
 
-- - -
 
-## Commit Early and Often
+## Tools used
 
-* One of the most important skills to master as a web developer is version control. Building the habit of committing via Git is important for two reasons:
+* HTML, CSS, JS
+* Node.js
+* Express
+* MondoDB
+* Mongoose
 
-1. Your commit history is a signal to employers that you are actively working on projects and learning new skills
+## Author
 
-2. Your commit history allows you to revert your code base in the event that you need to return to a previous state
+Pieter Boerma
 
-* Follow these guidelines for committing:
-
-  * Make single purpose commits for related changes to ensure a clean, manageable history. If you are fixing two issues, make two commits
-
-  * Write descriptive, meaningful commit messages so that you and anyone else looking at your repository can easily understand its history
-
-  * Don't commit half done work, for the sake of your collaborators (and your future self!)
-
-  * Test your application before you commit to ensure functionality at every step in the development process
-
-* We would like you to have well over 200 commits by graduation, so commit early and often!
-
-* Deploy your application with [Heroku and MongoDB Atlas.](../04-Important/MongoAtlas-Deploy.md)
 
 ## Submission on BCS
 
