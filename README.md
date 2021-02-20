@@ -36,7 +36,7 @@ Pieter Boerma
 
 * You are required to submit the following:
 
-  * the URL to the deployed application
+  * https://onofflinebudgettracker.herokuapp.com/
 
-  * the URL to the Github repository
+  * https://github.com/pboerma/on_offlinetracker
 
