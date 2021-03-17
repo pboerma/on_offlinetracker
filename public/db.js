@@ -65,5 +65,6 @@ function checkDatabase() {
   };
 }
 
-// listen for app coming back online
+
+// listen for app coming back onlinedsfsdfdsfds sdfs dfsd 
 window.addEventListener("online", checkDatabase);
